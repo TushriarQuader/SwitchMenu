@@ -1,1 +1,8 @@
-SwitchOperatedTextMenu.class
+*.class   
+SwitchOperated*  
+./directory  
+./directory/*.png 
+# exclude any file in the directory with .class file extension 
+# exclude any file which starts with SwitchOperated 
+# exclude the entire directory 
+# exclude all .png files in a given directory 
